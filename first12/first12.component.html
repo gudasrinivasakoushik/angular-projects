@@ -1,0 +1,8 @@
+<p> 1st working</p>
+<p><b><font>PRODUCTID PRODUCTNAME  PRICE</font></b></p>
+<table>
+<tr *ngFor='let customer of customerss'>
+<td>{{customer.productid}} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  , {{customer.productName}}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{customer.price}}</td>
+</tr>
+</table>
+<button (click)='modifiedData()'>Click Here</button>

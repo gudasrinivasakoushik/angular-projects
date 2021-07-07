@@ -1,0 +1,45 @@
+<p>calculator works!</p>
+<h2>event-binding component!</h2><hr>
+<h2>calculator works!</h2><hr>
+<table>
+    <tr>
+        <td>
+            FirstNumber: <input type='text' [(ngModel)]='number1'><br>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            SecondNumber: <input type='text' [(ngModel)]='number2'><br>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Result:<input type='text' [(ngModel)]='number3'>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="button" value='add' id="button" (click)="getResult('+')">
+            <input type="button" value='sub' id="button" (click)="getResult('-')">
+            <input type="button" value='mul' id="button" (click)="getResult('*')">
+            <input type="button" value='div' id="button" (click)="getResult('/')">
+        </td>
+    </tr>
+</table>
+<!-- FirstValue: <input type='text'>
+<button (click)="getData(uName.value)"></button>
+Second Value: <input type='text' >
+<button (click)="getData1(uName.value)"></button><br>
+Result:<input type='' #uName>
+<button (click)="getadd(uName.value,uName.value)"></button>  -->
+<!-- <h1>Adding inputBox Numbers</h1>
+    <p>Num1: <input [(ngModel)]="num1"></p>
+    <p>Num2: <input [(ngModel)]="num2"></p>
+    <p>The sum is: {{ 5 + 6 }}</p>  -->
+    <!-- <h1>Adding inputBox Numbers</h1>
+    <p>Num1: <input [(ngModel)]="num1" #fv></p>
+    <p>Num2: <input [(ngModel)]="num2"#sv></p>
+ <p>{{ num1*1   +num2*1 }}</p> -->
+ 
+ <!-- Result:<output [(ngModel)]="geResult"> </output>
+ <button (click)="getResult(fv.value,sv.value)"></button> -->
